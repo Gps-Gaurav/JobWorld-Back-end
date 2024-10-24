@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://jobworldskill.netlify.app',
+    origin:'https://job-world-skill.netlify.app',
     credentials:true
 }
 
