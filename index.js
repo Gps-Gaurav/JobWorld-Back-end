@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://jobworld-front-end.onrender.com',
+    origin:'https://stellar-youtiao-81060b.netlify.app',
     method:['GET','POST','DELETE','PUT','PATCH'],
     credentials:true
 }
