@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://job-world-front-end.vercel.app',
+    origin:'https://jobworld-front-end.onrender.com',
     method:['GET','POST','DELETE','PUT','PATCH'],
     credentials:true
 }
