@@ -20,7 +20,7 @@ const corsOptions = {
     origin:'https://jobworld-front-end.onrender.com',
     headers: "*",
      methods: "*",
-     Credential: true
+     credentials: true,
     }
     
 
