@@ -18,11 +18,9 @@ app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
     origin:'https://jobworld-front-end.onrender.com',
-    headers: "*",
-     methods: "*",
-     credentials: true,
-    }
-    
+    method:['GET','POST','DELETE','PUT','PATCH'],
+    credentials:true
+}
 
 app.use(cors(corsOptions));
 
